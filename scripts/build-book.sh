@@ -347,7 +347,7 @@ REQUIREMENTS:
     - Required CJK fonts for zh_CN
       (fonts-noto-cjk, fonts-noto-cjk-extra — Noto Serif/Sans/Mono CJK SC)
 
-For detailed installation instructions, see: $SCRIPT_DIR/BUILD-README.md
+For detailed installation instructions, see: $SCRIPT_DIR/README.md
 EOF
 }
 
@@ -479,7 +479,7 @@ test_dependencies() {
         echo "   Run: $0 --help for build options"
     else
         echo "❌ Some dependencies are missing. Please install them before building."
-        echo "   See: $SCRIPT_DIR/BUILD-README.md for installation instructions"
+        echo "   See: $SCRIPT_DIR/README.md for installation instructions"
         exit 1
     fi
 }
